@@ -10,7 +10,7 @@ class Penduduk extends REST_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('M_Penduduk', 'penduduk');
+        $this->load->model('api/M_Penduduk', 'penduduk');
     }
 
     //MENAMPILKAN DATA PENDUDUK BERDASARKAN ID ATAU KODE DESA
