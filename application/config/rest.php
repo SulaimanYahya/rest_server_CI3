@@ -1,6 +1,6 @@
 <?php
 
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
@@ -324,7 +324,7 @@ $config['rest_keys_table'] = 'keys';
 |   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 |
 */
-$config['rest_enable_keys'] = FALSE;
+$config['rest_enable_keys'] = true;
 
 /*
 |--------------------------------------------------------------------------
@@ -557,11 +557,11 @@ $config['check_cors'] = FALSE;
 |
 */
 $config['allowed_cors_headers'] = [
-  'Origin',
-  'X-Requested-With',
-  'Content-Type',
-  'Accept',
-  'Access-Control-Request-Method'
+    'Origin',
+    'X-Requested-With',
+    'Content-Type',
+    'Accept',
+    'Access-Control-Request-Method'
 ];
 
 /*
@@ -573,12 +573,12 @@ $config['allowed_cors_headers'] = [
 |
 */
 $config['allowed_cors_methods'] = [
-  'GET',
-  'POST',
-  'OPTIONS',
-  'PUT',
-  'PATCH',
-  'DELETE'
+    'GET',
+    'POST',
+    'OPTIONS',
+    'PUT',
+    'PATCH',
+    'DELETE'
 ];
 
 /*
